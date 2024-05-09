@@ -68,15 +68,18 @@ The software and hardware requirements for the project are as follows:
 The outcome of the proposed system is a substantial improvement in the accuracy of Speech Emotion Recognition (SER).
 
  ![image](https://github.com/AbhayShukla57/Speech-Emotion-Recognition-using-GMM-and-KNN/assets/110044415/6560267e-7ceb-4106-8599-a39a49989b57)
+
 Figure 6.1: Confusion Matrix
 
 The confusion matrix provides a visual representation of the performance of a classification model. From the confusion matrix, it is evident that the system performs well in correctly classifying instances across most emotion categories, with relatively few misclassifications. Notably, the majority of instances are correctly classified along the diagonal, indicating strong performance. It is observed that the model performs well in correctly identifying instances of 'Angry', 'Disgust', and 'Happiness', as indicated by the high diagonal values in these rows. However, it struggles more with classifying 'Fear' and 'Sadness', as evidenced by the off-diagonal values in these rows.
 
 Table 6.1: Comparison between Existing System (SVM) and Proposed System (GMM & KNN)
+
 ![image](https://github.com/AbhayShukla57/Speech-Emotion-Recognition-using-GMM-and-KNN/assets/110044415/e65fdeb9-21df-4225-b831-f97e2722bcf4)
 
 
 Table 6.2: Classification Report
+
 ![image](https://github.com/AbhayShukla57/Speech-Emotion-Recognition-using-GMM-and-KNN/assets/110044415/777a8cd0-a23c-4abd-bfea-e5f2a251261c)
 
 The classification report provides a summary of the classification performance across different emotion classes. It includes metrics such as precision, recall, and F1-score, which assess the model's accuracy in classifying each emotion class. Additionally, it reports the overall accuracy of the model across all classes.
